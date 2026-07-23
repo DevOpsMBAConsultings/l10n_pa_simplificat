@@ -28,6 +28,10 @@ class AccountChartTemplate(models.AbstractModel):
                 'income_currency_exchange_account_id': 'pa_account_601_01',
                 'expense_currency_exchange_account_id': 'pa_account_601_01',
                 'account_journal_suspense_account_id': 'pa_account_100', # Usually 100.99 but fallback to 100
+                'account_journal_early_pay_discount_loss_account_id': 'pa_account_500_05',
+                'account_journal_early_pay_discount_gain_account_id': 'pa_account_400_07',
+                'default_cash_difference_income_account_id': 'pa_account_400_07',
+                'default_cash_difference_expense_account_id': 'pa_account_601_33',
             }
         }
 
